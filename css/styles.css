@@ -1,0 +1,30 @@
+body{
+    background-color: #FEFAE0;
+}
+.JahidBioTable td:nth-child(1){     /*This is used to directly get to the child component with first component starts from 1*/
+    background-color: #D8D8D8;
+}
+hr{
+    border-style: dotted;
+    border-width: 6px 0px 0px 0px;
+    width: 8%;
+    height: 0px;
+}
+#ProfilePicImage {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+#submitButtonInput{
+    width: 100%;
+    text-align: -webkit-center;
+}
+table{
+    border-spacing: 20px 1rem;
+    padding: 0 2em 1em 0;
+}
+th{
+    text-align: left;
+}
