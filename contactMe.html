@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/contactMe.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="index.html">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" required placeholder="Enter your Name here..."></td>
+                </tr>
+                <tr>
+                    <td><label for="dateofbirth">Date of Birth</label></td>
+                    <td><input type="date" id="dateofbirth"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile Number</label></td>
+                    <td><input type="tel" inputmode="numeric" id="mobile" required placeholder="Enter your Mobile Number here..."></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" required placeholder="Enter your Email here..."></td>
+                </tr>
+                <tr>
+                    <td><label for="location">Location</label></td>
+                    <td><input type="text" id="location" placeholder="Enter your Location here..."></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message</label></td>
+                    <td><textarea id="message" name="message" rows="4" cols="50" required aria-placeholder="Enter your message here..."></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><input type="submit" value="Submit" id="submitButtonInput"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <p>Back to <a href="index.html"><strong>Home</strong></a> Page</p>
+</body>
+</html>
